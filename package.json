@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ankane/vue-chartkick"
+    "url": "https://github.com/Josmun55/vue-chartkick"
   },
   "files": [
     "dist"
@@ -39,5 +39,9 @@
   },
   "dependencies": {
     "chartkick": ">=3.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ankane/vue-chartkick/issues"
+  },
+  "homepage": "https://github.com/Josmun55/vue-chartkick#readme"
 }
