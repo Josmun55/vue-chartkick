@@ -1,7 +1,7 @@
 {
-  "name": "vue-chartkick",
-  "version": "1.1.0",
-  "description": "Create beautiful JavaScript charts with one line of Vue",
+  "name": "@josmun55/vue-chartkick",
+  "version": "1.1.1",
+  "description": "Create beautiful JavaScript charts with one line of Vue. A forked version of Vue Chartkick (https://www.chartkick.com/vue)",
   "type": "module",
   "main": "./dist/vue-chartkick.js",
   "module": "./dist/vue-chartkick.esm.js",
@@ -13,7 +13,9 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build",
+    "release": "npm version patch && npm publish"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -24,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Josmun55/vue-chartkick"
+    "url": "git+https://github.com/Josmun55/vue-chartkick.git"
   },
   "files": [
     "dist"
@@ -43,5 +45,16 @@
   "bugs": {
     "url": "https://github.com/ankane/vue-chartkick/issues"
   },
-  "homepage": "https://github.com/Josmun55/vue-chartkick#readme"
+  "homepage": "https://github.com/Josmun55/vue-chartkick#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "charts",
+    "vue3",
+    "chartJS",
+    "graphs",
+    "typescript"
+  ],
+  "author": ""
 }
