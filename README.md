@@ -30,8 +30,8 @@ Make a `@types` directory in `src` or the default project folder.Add a sub-direc
 Inside the directory define a new file named `index.d.ts` and input / paste the below declaration
 
 
-```
-declare module "@josmun55/vue-chartkick";
+```javascript
+declare module "@josmun55/vue-chartkick"
 ```
 
 ## OFFICIAL
