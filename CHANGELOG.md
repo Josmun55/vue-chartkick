@@ -1,3 +1,8 @@
+## 1.1.1 (scoped release)
+
+- Minor changes and customisation
+
+
 ## 1.1.0 (2021-04-05)
 
 - Added `loading` option
