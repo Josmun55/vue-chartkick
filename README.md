@@ -13,8 +13,28 @@ Supports [Chart.js](https://www.chartjs.org/), [Google Charts](https://developer
 Run
 
 ```sh
-npm install vue-chartkick chart.js
+npm install @Josmun55/vue-chartkick chart.js
 ```
+
+## Custom scoped usage (Vue 3)
+
+```javascript
+import Chartkick from '@josmun55/vue-chartkick'
+import Chart from "chart.js/auto";
+
+app.use(Chartkick.use(Chart))
+```
+Make sure to declare a module for the package if it throws an error on the same
+
+Make a `@types` directory in `src` or the default project folder.Add a sub-directory inside called `josmun55__vue-chartkick`.
+Inside the directory define a new file named `index.d.ts` and input / paste the below declaration
+
+
+```javascript
+declare module "@josmun55/vue-chartkick"
+```
+
+## OFFICIAL
 
 The latest version works with Vue 3. For Vue 2, use version 0.6.1 and [this readme](https://github.com/ankane/vue-chartkick/blob/vue2-docs/README.md).
 
