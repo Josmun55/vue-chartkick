@@ -14,19 +14,18 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src",
-    "prepublishOnly": "npm run build",
-    "release": "npm version patch && npm publish"
+    "release": "npm version patch && npm publish --access public"
   },
   "license": "MIT",
   "peerDependencies": {
     "vue": ">=3.0.0"
   },
   "authors": [
-    "ankane"
+    "ankane", "Josmun55"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Josmun55/vue-chartkick.git"
+    "url": "https://github.com/Josmun55/vue-chartkick"
   },
   "files": [
     "dist"
@@ -43,7 +42,7 @@
     "chartkick": ">=3.2.0"
   },
   "bugs": {
-    "url": "https://github.com/ankane/vue-chartkick/issues"
+    "url": "https://github.com/Josmun55/vue-chartkick/issues"
   },
   "homepage": "https://github.com/Josmun55/vue-chartkick#readme",
   "directories": {
@@ -56,5 +55,5 @@
     "graphs",
     "typescript"
   ],
-  "author": ""
+  "author": "Josmun55"
 }
